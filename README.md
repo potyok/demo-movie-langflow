@@ -1,6 +1,6 @@
-# Demo for using Langflow eith custom MCP server
+# Demo for using Langflow with a custom MCP server
 
-This project includes a sample implementation of how to integrate your own MCP server with the Langflow.
+This project includes a sample implementation for integrating your own MCP server with Langflow.
 
 ## Setup
 
@@ -8,7 +8,7 @@ Clone the repository to get the implementation of a custom MCP server that handl
 
 ### Setup Langflow
 
-The installation steps of Langflow can be find on this [website](https://docs.langflow.org/get-started-installation).
+The installation steps of Langflow can be found on this [website](https://docs.langflow.org/get-started-installation).
 
 ### Setup MCP server
 
@@ -18,7 +18,7 @@ Run this command in the root folder of the project:
 pip install -r requirements.txt
 ```
 
-Then navigate into `src` folder and start the MCP server with:
+Then navigate into the `src` folder and start the MCP server with:
 
 ```bash
 python main.py
@@ -33,13 +33,13 @@ INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000
 ```
 
-## Connect Langflow with MCP server
+## Connect Langflow with the MCP server
 
-After Langflow was started, you have to set the details of MCP server in the `Settings/MCP servers`.
+After Langflow is started, you have to set the details of the MCP server in the `Settings/MCP servers`.
 
 <img src="imgs/setup_mcp.png" alt="Setup MCP"/>
 
-Then create a simple agent flow and add a `MCP tools` component to it:
+Then create a simple agent flow and add an `MCP tools` component to it:
 
 <img src="imgs/simple_flow.png" alt="Add MCP tool"/>
 
